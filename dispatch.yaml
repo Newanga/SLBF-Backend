@@ -1,0 +1,9 @@
+dispatch:
+  # Default service serves the typical web resources and all static resources.
+  - url: "slbf.live/api/*"
+    service: default
+
+  - url: "nsbm-library.live/*"
+    service: frontend  
+
+ 
